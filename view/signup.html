@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title> SignUp page </title>
+        <style>
+            Body {  
+                font-family: Calibri, Helvetica, sans-serif;  
+                background-size: auto;
+                background-repeat: no-repeat ;
+                background-attachment: fixed;
+                background-size: cover;
+                
+            }       
+            h1{
+                margin: 100px 0px; 
+            }
+            form {   
+                padding: 0px 500px;
+            }   
+             input[type=text], input[type=password] {   
+                width: 100%;   
+                margin: 10px 10px;  
+                padding: 10px 10px;       
+                box-sizing: border-box;   
+             }   
+        </style>
+    </head>
+    <body background="https://static.vecteezy.com/system/resources/thumbnails/002/460/852/small/banner-bookshelf-in-a-dark-room-photo.jpg" > 
+        <center> <h1 style="color:bisque"> Signup </h1> </center>   
+        <form action="/Signupsubmit" method="GET"> 
+            <label style="color:bisque;">First Name : </label>  
+            <input type="text" name="Fname">
+            <label style="color:bisque;">Last Name : </label>  
+            <input type="text" name="Lname">
+            <label style="color:bisque;">Email : </label>   
+            <input type="text" name="mail" > 
+            <label style="color:bisque;">Phone : </label>   
+            <input type="text" name="phone" >
+            <label style="color:bisque;">Password : </label>   
+            <input type="password" placeholder="create Password" name="password" required>
+           <center> <button type="submit" class="cancelbtn">submit</button>    </center> 
+        </form>
+    </body>
+</html>
